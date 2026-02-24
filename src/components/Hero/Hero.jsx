@@ -13,9 +13,8 @@ export const Hero = () => {
           NodeJS. Entre em contato se quiser saber mais!
         </p>
         <a
-          href={getImageUrl("cv/Emanuel-CV.pdf")}
-          target="_blank"
-          rel="noopener noreferrer"
+          href={`${import.meta.env.BASE_URL}cv/Emanuel-CV.pdf`}
+          download
           className={styles.contactBtn}
         >
           Baixar CV
