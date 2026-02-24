@@ -14,7 +14,8 @@ export const Hero = () => {
         </p>
         <a
           href={getImageUrl("cv/Emanuel-CV.pdf")}
-          download
+          target="_blank"
+          rel="noopener noreferrer"
           className={styles.contactBtn}
         >
           Baixar CV
