@@ -13,10 +13,11 @@ export const Hero = () => {
           NodeJS. Entre em contato se quiser saber mais!
         </p>
         <a
-          href="/cv/Emanuel-CV.pdf"
+          href={getImageUrl("cv/Emanuel-CV.pdf")}
           download
           className={styles.contactBtn}
-        >Baixar CV
+        >
+          Baixar CV
         </a>
 
         <a
