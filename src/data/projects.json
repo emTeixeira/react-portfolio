@@ -8,12 +8,11 @@
     "source": "https://github.com/emTeixeira/leave-store"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "SaaS para Barbearias",
+    "imageSrc": "projects/barbersaas.png",
+    "description": "Gerenciamento de barbearias, para controle de horários.",
+    "skills": ["Angular", "TS", "Supabase"],
+    "source": "https://github.com/emTeixeira/barber-saas"
   },
   {
     "title": "Project C",
