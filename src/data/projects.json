@@ -2,7 +2,7 @@
   {
     "title": "Leave Store",
     "imageSrc": "projects/leavestore.png",
-    "description": "Landing Page para loja de periféricos para jogos, feita com HTML, CSS e JavaScript.",
+    "description": "Landing Page para loja de periféricos, feita com HTML, CSS e JavaScript.",
     "skills": ["HTML", "CSS", "JavaScript"],
     "demo": "https://emteixeira.github.io/leave-store/index.html",
     "source": "https://github.com/emTeixeira/leave-store"
