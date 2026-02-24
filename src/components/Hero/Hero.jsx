@@ -23,11 +23,10 @@ export const Hero = () => {
           href="https://wa.me/5521975212775?text=Ol%C3%A1!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20como%20voc%C3%AA%20pode%20contribuir%20com%20um%20projeto%20ou%20integrar%20nosso%20time."
           target="_blank"
           rel="noopener noreferrer"
-          className={styles.contactBtnOutline} >
-          <img
-            src={getImageUrl("hero/whatsappIcon.png")}
-            alt="WhatsApp"
-            className={styles.icon} />Contato</a>
+          className={styles.contactBtnOutline}
+        >
+          Contato
+        </a>
 
       </div>
       <img
