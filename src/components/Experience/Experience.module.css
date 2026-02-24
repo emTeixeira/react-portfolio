@@ -1,0 +1,171 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin: 79px 10% 0 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 14px;
+}
+
+.skillsWrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.skillsWrapper::before,
+.skillsWrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 120px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.skillsWrapper::before {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    var(--color-bg) 0%,
+    transparent 100%
+  );
+}
+
+.skillsWrapper::after {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    var(--color-bg) 0%,
+    transparent 100%
+  );
+}
+
+.skills {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 37px;
+  width: max-content;
+  animation: scrollLeft 30s linear infinite;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  flex: 0 0 120px;
+  margin-right: 37px;
+}
+
+.skillImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+}
+
+.skillImageContainer img {
+  width: 75px;
+}
+
+.skill p {
+  font-family: var(--font-roboto);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 45%;
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  padding: 24px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    #19376d 0%,
+    rgba(25, 55, 109, 0) 100%
+  );
+}
+
+.historyItem img {
+  width: 50px;
+}
+
+.historyItemDetails {
+  font-family: var(--font-roboto);
+}
+
+.historyItemDetails h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.historyItemDetails p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.historyItemDetails ul {
+  margin: 6px 0 0 17px;
+  font-size: 25px;
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .skills {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 37px;
+  width: max-content;
+  animation: scrollLeft 30s linear infinite;
+  }
+
+  .history {
+    width: 100%;
+    gap: 9px;
+  }
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50%));
+  }
+}
