@@ -16,6 +16,10 @@
     "imageSrc": "skills/node.png"
   },
   {
+    "title": "Angular",
+    "imageSrc": "skills/angular.png"
+  },
+  {
     "title": "GraphQL",
     "imageSrc": "skills/graphql.png"
   },
@@ -32,7 +36,7 @@
     "imageSrc": "skills/lua.png"
   },
   {
-    "title": "python",
+    "title": "Python",
     "imageSrc": "skills/python.png"
   },
   {
