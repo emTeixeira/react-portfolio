@@ -11,15 +11,23 @@
     "title": "SaaS para Barbearias",
     "imageSrc": "projects/barbersaas.png",
     "description": "Gerenciamento de barbearias, para controle de horários.",
-    "skills": ["Angular", "TS", "Supabase"],
+    "skills": ["Angular", "TypeScript", "Supabase"],
     "source": "https://github.com/emTeixeira/barber-saas"
   },
   {
     "title": "Desenvolvimento de Sites",
     "imageSrc": "projects/emanuelsite.png",
     "description": "Sites personalizados que destacam marcas e aumentam vendas.",
-    "skills": ["React", "TS", "Tailwind CSS", "Next.js"],
+    "skills": ["React", "TypeScript", "Tailwind CSS", "Next.js"],
     "demo": "https://www.example.com",
     "source": "https://github.com/emTeixeira/emanuel-site.git"
+  },
+
+  {
+    "title": "Weapon Script e Dashboard para FiveM",
+    "imageSrc": "projects/dashboard.png",
+    "description": "Script para gerenciamento de armas e dashboard para FiveM.",
+    "skills": ["Lua", "React", "TypeScript", "Tailwind CSS", "shadcn-ui"],
+    "source": "https://github.com/emTeixeira/weaponSystem-dashboard.git"
   }
 ]
