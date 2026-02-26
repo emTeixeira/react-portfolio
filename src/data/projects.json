@@ -15,11 +15,11 @@
     "source": "https://github.com/emTeixeira/barber-saas"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Desenvolvimento de Sites",
+    "imageSrc": "projects/emanuelsite.png",
+    "description": "Sites personalizados que destacam marcas e aumentam vendas.",
+    "skills": ["React", "TS", "Tailwind CSS", "Next.js"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/emTeixeira/emanuel-site.git"
   }
 ]
