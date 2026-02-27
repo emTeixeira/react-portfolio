@@ -24,9 +24,9 @@
   },
 
   {
-    "title": "Weapon Script e Dashboard para FiveM",
+    "title": "Script e dashboard para GTA V",
     "imageSrc": "projects/scriptweapon.png",
-    "description": "Script para gerenciamento de armas e dashboard para FiveM.",
+    "description": "Aplicação para FiveM e controle e de equipamentos via dashboard.",
     "skills": ["Lua", "React", "TypeScript", "Tailwind CSS", "shadcn-ui"],
     "source": "https://github.com/emTeixeira/weaponSystem-dashboard.git"
   }
