@@ -28,6 +28,6 @@
     "imageSrc": "projects/dashboard.png",
     "description": "Script para gerenciamento de armas e dashboard para FiveM.",
     "skills": ["Lua", "React", "TypeScript", "Tailwind CSS", "shadcn-ui"],
-    "source": "https://github.com/emTeixeira/weaponSystem-dashboard.git"
+    "source": "https://github.com/emTeixeira/scriptweapon.git"
   }
 ]
