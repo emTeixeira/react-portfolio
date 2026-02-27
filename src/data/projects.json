@@ -4,7 +4,7 @@
     "imageSrc": "projects/emanuelsite.png",
     "description": "Sites personalizados que destacam marcas e aumentam vendas.",
     "skills": ["React", "TypeScript", "Tailwind CSS", "Next.js"],
-    "demo": "https://www.example.com",
+    "demo": "https://emanuel-site.vercel.app/",
     "source": "https://github.com/emTeixeira/emanuel-site.git"
   },
 
