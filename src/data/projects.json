@@ -25,9 +25,9 @@
 
   {
     "title": "Weapon Script e Dashboard para FiveM",
-    "imageSrc": "projects/dashboard.png",
+    "imageSrc": "projects/scriptweapon.png",
     "description": "Script para gerenciamento de armas e dashboard para FiveM.",
     "skills": ["Lua", "React", "TypeScript", "Tailwind CSS", "shadcn-ui"],
-    "source": "https://github.com/emTeixeira/scriptweapon.git"
+    "source": "https://github.com/emTeixeira/weaponSystem-dashboard.git"
   }
 ]
