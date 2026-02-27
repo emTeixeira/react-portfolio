@@ -1,20 +1,5 @@
 [
   {
-    "title": "Leave Store",
-    "imageSrc": "projects/leavestore.png",
-    "description": "Landing Page para loja de periféricos, feita com HTML, CSS e JavaScript.",
-    "skills": ["HTML", "CSS", "JavaScript"],
-    "demo": "https://emteixeira.github.io/leave-store/index.html",
-    "source": "https://github.com/emTeixeira/leave-store"
-  },
-  {
-    "title": "SaaS para Barbearias",
-    "imageSrc": "projects/barbersaas.png",
-    "description": "Gerenciamento de barbearias, para controle de horários.",
-    "skills": ["Angular", "TypeScript", "Supabase"],
-    "source": "https://github.com/emTeixeira/barber-saas"
-  },
-  {
     "title": "Desenvolvimento de Sites",
     "imageSrc": "projects/emanuelsite.png",
     "description": "Sites personalizados que destacam marcas e aumentam vendas.",
@@ -29,5 +14,21 @@
     "description": "Aplicação para FiveM e controle e de equipamentos via dashboard.",
     "skills": ["Lua", "TypeScript", "Tailwind CSS"],
     "source": "https://github.com/emTeixeira/weaponSystem-dashboard.git"
+  },
+
+  {
+    "title": "Loja Digital - Leave Store",
+    "imageSrc": "projects/leavestore.png",
+    "description": "Landing Page para loja de periféricos, feita com HTML, CSS e JavaScript.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://emteixeira.github.io/leave-store/index.html",
+    "source": "https://github.com/emTeixeira/leave-store"
+  },
+  {
+    "title": "Sistema para Barbearias",
+    "imageSrc": "projects/barbersaas.png",
+    "description": "Gerenciamento de barbearias, para controle de horários.",
+    "skills": ["Angular", "TypeScript", "Supabase"],
+    "source": "https://github.com/emTeixeira/barber-saas"
   }
 ]
